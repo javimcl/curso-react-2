@@ -6,7 +6,7 @@ export default function Paginacion(props) {
         const resultado = [];
         
         for (let i = 0; i < props.total; i++) {
-            var pagina = i+ 1;
+            let pagina = i+ 1;
            
             resultado.push(
             <a onClick={() => props.onChange(pagina)} 
